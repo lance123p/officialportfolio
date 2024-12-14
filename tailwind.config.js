@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-const {nextui} = require("@nextui-org/react");
+const { nextui } = require('@nextui-org/react');
+
 module.exports = {
-  content: [  
+  content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -16,7 +17,7 @@ module.exports = {
       backgroundImage: {
         'animated-circle': "url('@/public/assets/animated-circle.svg')",
         'animated-wave': "url('@/public/assets/wave.svg')",
-      }
+      },
     },
   },
   plugins: [nextui()],
