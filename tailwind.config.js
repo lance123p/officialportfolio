@@ -14,10 +14,6 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
-      backgroundImage: {
-        'animated-circle': "url('@/public/assets/animated-circle.svg')",
-        'animated-wave': "url('@/public/assets/wave.svg')",
-      },
     },
   },
   plugins: [nextui()],

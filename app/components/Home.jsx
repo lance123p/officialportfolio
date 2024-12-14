@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const Home = () => {
   return (
-    <div className="bg-animated-circle bg-no-repeat bg-cover min-h-screen flex items-center justify-center p-4 pt-[8rem]" id='home'>
+    <div className="bg-[url('/assets/animated-circle.svg')] bg-no-repeat bg-cover min-h-screen flex items-center justify-center p-4 pt-[8rem]" id='home'>
       <div className="text-center">
           <div className=" flex items-center justify-center">
           <div >

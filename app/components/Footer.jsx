@@ -6,7 +6,7 @@ import Logo1 from '@/public/assets/lance1.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-animated-wave bg-no-repeat bg-cover py-4 px-4 md:px-14">
+    <footer className="bg-[url('/assets/wave.svg')] bg-no-repeat bg-cover py-4 px-4 md:px-14">
       <Divider className="my-4" />
       <div className="mt-[10rem] pt-[17rem] pb-[3rem] flex flex-col md:flex-row justify-between items-center">
         {/* Footer Logo or Brand Name */}
