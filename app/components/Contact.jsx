@@ -17,7 +17,7 @@ export default function Contact() {
         {placements.map((placement) => (
             <Input
               key={placement}
-              type="email"
+              type="text"
               label="Full Name"
               labelPlacement={placement}
               isRequired
